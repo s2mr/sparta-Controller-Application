@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'calc/addition'
+
+  get 'calc/substraction'
+
+  get 'calc/multiplication'
+
+  get 'calc/division'
+
   get 'greeting/morning'
 
   get 'greeting/afternoon'
