@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get 'calc/addition'
+  get 'calc/addition/:num1/:num2' => 'calc#addition'
 
-  get 'calc/substraction'
+  get 'calc/substraction/:num1/:num2' => 'calc#substraction'
 
-  get 'calc/multiplication'
+  get 'calc/multiplication/:num1/:num2' => 'calc#multiplication'
 
-  get 'calc/division'
+  get 'calc/division/:num1/:num2' => 'calc#division'
 
   get 'greeting/morning'
 
