@@ -7,15 +7,15 @@ Rails.application.routes.draw do
 
   get 'calc/division/:num1/:num2' => 'calc#division'
 
-  get 'greeting/morning'
+  get 'comments/morning'
 
-  get 'greeting/afternoon'
+  get 'comments/afternoon'
 
-  get 'greeting/evening'
+  get 'comments/evening'
   
-  get 'greeting/echo/:echo' => 'greeting#echo'
+  get 'comments/freeword/:word' => 'comments#freeword'
   
-  get 'greeting/random' => 'greeting#random'
+  get 'comments/random' => 'commebts#random'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get 'books/hello' => 'books#hello'

@@ -1,4 +1,4 @@
-class GreetingController < ApplicationController
+class CommentsController < ApplicationController
   def morning
   end
 
@@ -8,8 +8,8 @@ class GreetingController < ApplicationController
   def evening
   end
   
-  def echo
-    @word = params[:echo]
+  def freeword
+    @word = params[:word]
   end
   
   def random
