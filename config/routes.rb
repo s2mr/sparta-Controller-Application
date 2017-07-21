@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
   get 'comments/evening'
   
+  get 'comments/night'
+  
   get 'comments/freeword/:word' => 'comments#freeword'
   
   get 'comments/random' => 'commebts#random'

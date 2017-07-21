@@ -8,6 +8,9 @@ class CommentsController < ApplicationController
   def evening
   end
   
+  def night
+  end
+  
   def freeword
     @word = params[:word]
   end
